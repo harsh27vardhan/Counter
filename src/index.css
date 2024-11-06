@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  border: none;
+  outline: none;
+}
+:root{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100dvh;
+}
+.counter{
+  background-color: rgb(3, 115, 153);
+  padding: 2rem;
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.counterCount{
+  font-size: 3rem;
+}
+.counter-operations{
+  display: flex;
+  gap: 2rem;
+}
+.plus, .minus{
+  border: 2px solid white;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  background-color: transparent;
+  color: white;
+}
